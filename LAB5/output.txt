@@ -1,0 +1,166 @@
+
+Procedure FINDEVENODD compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+10/1      PLS-00103: Encountered the symbol "BEGIN" 
+Errors: check compiler log
+
+Error starting at line : 21 in command -
+BEGIN
+findEvenODD(10) ;
+END;
+Error report -
+ORA-06550: line 2, column 1:
+PLS-00905: object DBS311_211F07.FINDEVENODD is invalid
+ORA-06550: line 2, column 1:
+PL/SQL: Statement ignored
+06550. 00000 -  "line %s, column %s:\n%s"
+*Cause:    Usually a PL/SQL compilation error.
+*Action:
+
+Error starting at line : 7 in command -
+ drop table  employees
+Error report -
+ORA-02449: unique/primary keys in table referenced by foreign keys
+02449. 00000 -  "unique/primary keys in table referenced by foreign keys"
+*Cause:    An attempt was made to drop a table with unique or
+           primary keys referenced by foreign keys in another table.
+*Action:   Before performing the above operations the table, drop the
+           foreign key constraints in other tables. You can see what
+           constraints are referencing a table by issuing the following
+           command:
+           SELECT * FROM USER_CONSTRAINTS WHERE TABLE_NAME = "tabnam";
+
+Procedure FINDEVENODD compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+10/1      PLS-00103: Encountered the symbol "BEGIN" 
+Errors: check compiler log
+
+Procedure FINDEVENODD compiled
+
+FIRST_NAME : Summer
+LAST_NAMENAME: Payne
+EMAIL: summer.payne@example.com
+PHONE: 515.123.8181
+HIRE_DATE: 16-06-07
+JOB_TITLE: Public Accountant
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure FINDEVENODD compiled
+
+The number is even 
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure FIND_EMPLOYEE compiled
+
+FIRST_NAME : Summer
+LAST_NAMENAME: Payne
+EMAIL: summer.payne@example.com
+PHONE: 515.123.8181
+HIRE_DATE: 16-06-07
+JOB_TITLE: Public Accountant
+
+
+PL/SQL procedure successfully completed.
+
+FIRST_NAME : Summer
+LAST_NAMENAME: Payne
+EMAIL: summer.payne@example.com
+PHONE: 515.123.8181
+HIRE_DATE: 16-06-07
+JOB_TITLE: Public Accountant
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure UPDATE_PRICE_UNDER_AVG compiled
+
+Rows Updated =198
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure PRODUCT_PRICE_REPORT compiled
+
+Cheap: 84
+Fair: 201
+Expensive: 3
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure FINDEVENODD compiled
+
+The number is even 
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure FIND_EMPLOYEE compiled
+
+FIRST_NAME : Summer
+LAST_NAMENAME: Payne
+EMAIL: summer.payne@example.com
+PHONE: 515.123.8181
+HIRE_DATE: 16-06-07
+JOB_TITLE: Public Accountant
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure FINDEVENODD compiled
+
+The number is even 
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure FIND_EMPLOYEE compiled
+
+FIRST_NAME : Summer
+LAST_NAMENAME: Payne
+EMAIL: summer.payne@example.com
+PHONE: 515.123.8181
+HIRE_DATE: 16-06-07
+JOB_TITLE: Public Accountant
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure UPDATE_PRICE_BY_CAT compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+35/1      PLS-00103: Encountered the symbol "DECLARE" 
+Errors: check compiler log
+Rows Updated =202
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure PRODUCT_PRICE_REPORT compiled
+
+Cheap: 84
+Fair: 201
+Expensive: 3
+
+
+PL/SQL procedure successfully completed.
+

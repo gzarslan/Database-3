@@ -1,0 +1,43 @@
+
+Procedure FINDEVENODD compiled
+
+The number is even 
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure FIND_EMPLOYEE compiled
+
+FIRST_NAME : Summer
+LAST_NAMENAME: Payne
+EMAIL: summer.payne@example.com
+PHONE: 515.123.8181
+HIRE_DATE: 16-06-07
+JOB_TITLE: Public Accountant
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure UPDATE_PRICE_BY_CAT compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+35/1      PLS-00103: Encountered the symbol "DECLARE" 
+Errors: check compiler log
+Rows Updated =199
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure PRODUCT_PRICE_REPORT compiled
+
+Cheap: 84
+Fair: 201
+Expensive: 3
+
+
+PL/SQL procedure successfully completed.
+

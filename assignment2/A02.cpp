@@ -213,7 +213,7 @@ int main() {
 			if (chose == 1) {
 				cout << "Enter the customer ID: ";
 				cin >> customerId;
-				//if the id is wrong print error message
+				//if the id is canot find print error message
 				if (customerLogin(conn, customerId) == 0) {
 					cout << "The customer does not exist." << endl;
 				}
@@ -233,7 +233,7 @@ int main() {
 
 		env->terminateConnection(conn);
 		Environment::terminateEnvironment(env);
-	}//if there is any exception
+	}
 	catch (SQLException& sqlExcp) {
 		cout << sqlExcp.getErrorCode() << ": " << sqlExcp.getMessage();
 	}
